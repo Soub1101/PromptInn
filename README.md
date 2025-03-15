@@ -7,10 +7,7 @@ This project is a hotel search and booking platform called "PROMPT INN".
 📌 Project Overview:
 
 
-A visually appealing hotel listing page where users can search and filter hotels.
-Users can browse hotels with details like name, price, location, and rating.
-A "Book Now" button is provided for each hotel.
-The site includes filters (price, location, rating) for easy hotel selection.
+A visually appealing hotel listing page where users can search and filter hotels. Users can browse hotels with details like name, price, location, and rating. A "Book Now" button is provided for each hotel. The site includes filters (price, location, rating) for easy hotel selection.
 
 
 
@@ -33,21 +30,27 @@ The site includes filters (price, location, rating) for easy hotel selection.
 🔹 Tech Stack:
 
 
-Frontend: HTML, CSS, JavaScript
+1. Frontend: HTML, CSS, JavaScript
 
-Backend (if needed): Java with Spring Boot (for future booking & database integration)
+2. Backend (if needed): Java with Spring Boot (for future booking & database integration)
 
-Database (if needed): PostgreSQL/MySQL (for storing hotels & bookings)
+3. Database (if needed): PostgreSQL/MySQL (for storing hotels & bookings)
 
 
 
 🚀 Future Enhancements:
 
 
-Add booking functionality (backend + database).
+- Add booking functionality (backend + database).
 
-Implement real-time availability checks.
+- Implement real-time availability checks.
 
-Enhance UI with animations & smooth transitions.
+- Enhance UI with animations & smooth transitions.
 
-Include user reviews and ratings for hotels.
+- Include user reviews and ratings for hotels.
+
+
+## License
+
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use the code for personal or commercial purposes.
