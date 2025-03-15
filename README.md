@@ -12,6 +12,8 @@ Users can browse hotels with details like name, price, location, and rating.
 A "Book Now" button is provided for each hotel.
 The site includes filters (price, location, rating) for easy hotel selection.
 
+
+
 🔹 Key Features:
 
 
@@ -26,6 +28,8 @@ The site includes filters (price, location, rating) for easy hotel selection.
 ✅ User-Friendly Interface: Simple layout with a clean UI.
 
 
+
+
 🔹 Tech Stack:
 
 
@@ -34,6 +38,8 @@ Frontend: HTML, CSS, JavaScript
 Backend (if needed): Java with Spring Boot (for future booking & database integration)
 
 Database (if needed): PostgreSQL/MySQL (for storing hotels & bookings)
+
+
 
 🚀 Future Enhancements:
 
