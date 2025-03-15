@@ -4,14 +4,14 @@ This project is a hotel search and booking platform called "PROMPT INN".
 
 
 
-📌 Project Overview:
+# Project Overview:
 
 
 A visually appealing hotel listing page where users can search and filter hotels. Users can browse hotels with details like name, price, location, and rating. A "Book Now" button is provided for each hotel. The site includes filters (price, location, rating) for easy hotel selection.
 
 
 
-🔹 Key Features:
+# Key Features:
 
 
 ✅ Hotel Listings: Displays 19 hotels with images, names, prices, locations & ratings.
@@ -27,7 +27,7 @@ A visually appealing hotel listing page where users can search and filter hotels
 
 
 
-🔹 Tech Stack:
+# Tech Stack:
 
 
 1. Frontend: HTML, CSS, JavaScript
@@ -38,7 +38,7 @@ A visually appealing hotel listing page where users can search and filter hotels
 
 
 
-🚀 Future Enhancements:
+# Future Enhancements:
 
 
 - Add booking functionality (backend + database).
