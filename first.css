@@ -1,0 +1,140 @@
+/* Wrapper and Layout Styles */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* Logo Container */
+.logo-container {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Adds slight background blur behind the logo */
+}
+
+.logo img {
+    width: 250px; /* Smaller logo */
+    height: auto;
+}
+
+/* Background Blur for the main content */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background.jpg') no-repeat center center fixed; /* Replace with your background image */
+    background-size: cover;
+    position: relative;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.3); /* Transparent white overlay */
+    backdrop-filter: blur(5px); /* Slight blur for the background */
+    z-index: 0;
+}
+
+.auth-section {
+    display: flex;
+    gap: 40px;
+    z-index: 1; /* Ensure the forms are above the blurred background */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Auth Forms */
+.auth-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Input and Button Styling */
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.auth-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Forgot Password Link */
+.auth-form .forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.auth-form .forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-col {
+    text-align: center;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.footer-col ul li a:hover {
+    text-decoration: underline;
+}
